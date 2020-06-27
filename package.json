@@ -1,41 +1,4 @@
 {
-  "_args": [
-    [
-      "git+https://git@github.com/beerchain/insight-api.git",
-      "/root/mynode"
-    ]
-  ],
-  "_from": "git+https://git@github.com/beerchain/insight-api.git",
-  "_id": "beerchain-insight-api@0.0.19",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/beerchain-insight-api",
-  "_phantomChildren": {},
-  "_requested": {
-    "hosted": {
-      "directUrl": "https://git@raw.githubusercontent.com/beerchain/insight-api/master/package.json",
-      "gitUrl": "git://git@github.com/beerchain/insight-api.git",
-      "httpsUrl": "git+https://git@github.com/beerchain/insight-api.git",
-      "shortcut": "github:beerchain/insight-api",
-      "ssh": "git@github.com:beerchain/insight-api.git",
-      "sshUrl": "git+ssh://git@github.com/beerchain/insight-api.git",
-      "type": "github"
-    },
-    "name": null,
-    "raw": "git+https://git@github.com/beerchain/insight-api.git",
-    "rawSpec": "git+https://git@github.com/beerchain/insight-api.git",
-    "scope": null,
-    "spec": "git+https://git@github.com/beerchain/insight-api.git",
-    "type": "hosted"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://git@github.com/beerchain/insight-api.git#f23f976c8eccc262e46054bc35496cf3a672aec0",
-  "_shasum": "b04d7d1abaf3863b6d640a5adc47e3d97a138263",
-  "_shrinkwrap": null,
-  "_spec": "git+https://git@github.com/beerchain/insight-api.git",
-  "_where": "/root/mynode",
   "bugs": {
     "url": "https://github.com/beerchain/insight-api/issues"
   },
@@ -48,8 +11,8 @@
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
     "lru-cache": "^4.0.1",
-    "beerchaincore-lib": "git+https://git@github.com/beerchain/beerchaincore-lib.git#master",
-    "beerchaincore-message": "git+https://git@github.com/beerchain/beerchaincore-message.git#master",
+    "beerchaincore-lib": "git+https://git@github.com/guti/beerchaincore-lib.git#master",
+    "beerchaincore-message": "git+https://git@github.com/guti/beerchaincore-message.git#master",
     "moment": "^2.19.3",
     "mongoose": "^4.11.8",
     "morgan": "^1.7.0",
@@ -67,8 +30,7 @@
   "engines": {
     "node": ">=0.12.0"
   },
-  "gitHead": "f23f976c8eccc262e46054bc35496cf3a672aec0",
-  "homepage": "https://github.com/beerchain/insight-api",
+  "homepage": "https://github.com/guti/insight-api",
   "keywords": [
     "blockchain",
     "blockchain api",
@@ -87,7 +49,7 @@
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/beerchain/insight-api.git"
+    "url": "git+https://github.com/guti/beerchain-insight-api.git"
   },
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec --recursive"
