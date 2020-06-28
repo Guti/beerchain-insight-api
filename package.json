@@ -9,7 +9,7 @@
     "bitcore-lib": "^0.13.7",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
-    "lodash": "^2.4.1",
+    "lodash": "^4.17.13",
     "lru-cache": "^4.0.1",
     "beerchaincore-lib": "https://github.com/guti/beerchaincore-lib",
     "beerchaincore-message": "https://github.com/guti/beerchaincore-message",
